@@ -1,0 +1,58 @@
+.logo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  border: 1px solid #000;
+  padding: 8px;
+}
+.formInputIncorrect {
+  border: 1px solid red;
+  margin: 10px;
+  height: 30px;
+  width: 250px;
+}
+.box {
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  padding: 10px;
+}
+.title {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  padding: 10px;
+  width: 400px;
+}
+.formLabel {
+  font-size: 20px;
+  margin: 10px;
+}
+.formInput {
+  margin: 10px;
+  height: 30px;
+  width: 250px;
+  border: 1px solid #000;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
