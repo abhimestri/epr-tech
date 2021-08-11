@@ -21,7 +21,6 @@ const UserLoginForm = () => {
           el.username === usernameRef.current.value &&
           el.password === passwordRef.current.value
       )[0];
-      console.log(user);
       if (user !== undefined) {
         history.push({ pathname: "/app/home", state: user, search: "" });
       } else {
